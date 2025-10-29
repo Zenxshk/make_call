@@ -18,8 +18,8 @@ export default function HRcall() {
 
     try {
       const payload = {
-        from,
-        to,
+        from: from,
+        to: to,
         // file_name stays the default (FILE_KEY_1) unless you want a dropdown
       };
 
